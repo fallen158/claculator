@@ -1,0 +1,30 @@
+.calulator {
+  display: inline-block;
+}
+.output{
+    height: 6em;
+    position: relative;
+    background: #363636;
+    border: 1px solid #363636;
+    border-radius: 5px 5px 0 0 ;
+
+}
+.row > .button {
+  height: 2.5em;
+  width: 3em;
+  font-size: 24px;
+}
+.row>.text-0{
+    width: 6em;
+}
+.row>.text-clear{
+    width: 9em;
+}
+.output>span{
+    position:absolute;
+    right: 10px;
+    bottom: 4px;
+    font-size: 38px;
+    color: white;
+}
+
